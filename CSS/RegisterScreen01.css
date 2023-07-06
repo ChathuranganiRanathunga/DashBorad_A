@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(233, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card_rs_01 {
+    background-color: white !important;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+/*Desktop and Laptop View*/
+
+@media (min-width: 768px) {
+    .card_rs_01 {
+        margin: 50px 50px;
+        width: 90%;
+        height: 100%;
+    }
+}
+
+
+/*Mobile View*/
+
+@media (max-width: 767px) {
+    .card_rs_01 {
+        margin: 50px;
+        width: 90%;
+        height: 100%;
+    }
+}
