@@ -108,6 +108,16 @@ input[type="tel"] {
     margin-right: 10px;
 }
 
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button {
+    margin-left: 10px;
+}
+
 
 /*Desktop and Laptop View*/
 
