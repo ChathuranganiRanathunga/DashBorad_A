@@ -61,6 +61,24 @@ input[type="tel"] {
     border-radius: 4px;
 }
 
+.NameGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.day {
+    margin-right: 10px;
+}
+
+.time-input {
+    margin-right: 10px;
+}
+
 
 /*Desktop and Laptop View*/
 
@@ -80,5 +98,8 @@ input[type="tel"] {
         margin: 50px;
         width: 90%;
         height: 100%;
+    }
+    .NameGroup {
+        flex-direction: column;
     }
 }
