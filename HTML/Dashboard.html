@@ -7,6 +7,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="../CSS/Dashboard.css" />
     <title>Document</title>
   </head>
@@ -72,12 +77,57 @@
             </ul>
           </nav>
         </div>
+        <!--Right -Side of the Screen-->
         <div class="col-md-10 main-content">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-outline-primary" type="submit">
+                      Search
+                    </button>
+                  </form>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-bell"></i> </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-gift"></i> </a>
+                </li>
+                <img
+                  src="../IMG/UserProfile.jpg"
+                  alt="Profile"
+                  class="profile-image"
+                />
+              </ul>
+            </div>
+          </nav>
+          <!--navbar end-->
           <div id="dashboard-content" class="content-section active">
             <!-- Dashboard content here -->
             <div class="container">
-              <div class="row">
-                <div class="col-md-2">
+              <div class="row first-row">
+                <div class="col">
                   <div class="card">
                     <div class="card-image">
                       <img src="../IMG/Muscle Arm.png" alt="Arm" />
@@ -88,7 +138,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                   <div class="card">
                     <div class="card-image">
                       <img src="../IMG/Calories.png" alt="Calories" />
@@ -99,7 +149,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                   <div class="card">
                     <div class="card-image">
                       <img src="../IMG/DietPrograms.png" alt="DietProgram" />
@@ -110,7 +160,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                   <div class="card">
                     <div class="card-image">
                       <img src="../IMG/Sleep.png" alt="Sleep" />
@@ -121,7 +171,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                   <div class="card">
                     <div class="card-image">
                       <img src="../IMG/user.png" alt="User" />
@@ -135,13 +185,68 @@
               </div>
               <!---->
               <div class="row second-row">
-                <div class="col-md-8">
+                <div class="col-md-8 first-card">
                   <div class="card fitness-chart">
-                    <img src="../IMG/fitnessChart.png" alt="FitnessChart" />
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h4>Workout Statistics</h4>
+                          <p>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="row">
+                            <div class="col">
+                              <i class="fas fa-running"></i>
+                            </div>
+                            <div class="col">
+                              <h3>45%</h3>
+                              <p>Running</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-2 Cycling">
+                          <div class="row">
+                            <div class="col">
+                              <i class="fas fa-bicycle"></i>
+                            </div>
+                            <div class="col">
+                              <h3>27%</h3>
+                              <p>Cycling</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-2 Yoga">
+                          <div class="row">
+                            <div class="col">
+                              <i class="fas fa-spa"></i>
+                            </div>
+                            <div class="col">
+                              <h3>86%</h3>
+                              <p>Yoga</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-2 button-timing">
+                          <button class="drop-down-timing">
+                            <div class="row">
+                              <div class="col text">
+                                Week<i class="fas fa-arrow-down"></i>
+                              </div>
+                            </div>
+                          </button>
+                        </div>
+                        <div class="row img-statistical-display">
+                          <img
+                            src="../IMG/fitnessChart.png"
+                            alt="Fitness Chart"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="card">
+                <div class="col-md-4 second-card">
+                  <div class="card progress-display-img">
                     <img
                       src="../IMG/progressDisplayingCircle.png"
                       alt="ProgressDisplayingImage"
