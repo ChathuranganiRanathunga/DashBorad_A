@@ -3,12 +3,12 @@
     padding: 20px;
 }
 
-.logo {
-    /* Logo styles */
+.logo img {
+    width: 120px;
 }
 
 .navigation {
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 .main-menu {

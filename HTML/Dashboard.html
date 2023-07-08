@@ -14,30 +14,65 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4 sidebar">
+        <div class="col-md-2 sidebar">
           <div class="logo">
-            <!-- Logo content here -->
+            <img src="../IMG/LogoFito.png" alt="Logo_Fito" />
           </div>
           <nav class="navigation">
             <ul class="main-menu">
-              <li class="menu-item">
-                <a href="#" data-target="dashboard-content">Dashboard</a>
-              </li>
               <li class="menu-item has-submenu">
-                <a href="#" data-target="reports-content">Reports</a>
+                <a href="#" data-target="dashboard-content">Dashboard</a>
                 <ul class="submenu">
-                  <li><a href="#" data-target="monthly-report">Monthly</a></li>
-                  <li><a href="#" data-target="weekly-report">Weekly</a></li>
-                  <li><a href="#" data-target="daily-report">Daily</a></li>
+                  <li>
+                    <a href="#" data-target="monthly-report">Dashboard</a>
+                  </li>
+                  <li>
+                    <a href="#" data-target="weekly-report"
+                      >Workout Statistic</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-target="daily-report">Workout Plan</a>
+                  </li>
+                  <li>
+                    <a href="#" data-target="monthly-report">Distance Map</a>
+                  </li>
+                  <li>
+                    <a href="#" data-target="weekly-report">Diet Food Menu</a>
+                  </li>
+                  <li>
+                    <a href="#" data-target="daily-report">Personal Record</a>
+                  </li>
                 </ul>
               </li>
               <li class="menu-item">
-                <a href="#" data-target="settings-content">Settings</a>
+                <a href="#" data-target="reports-content">Apps</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" data-target="settings-content">Charts</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" data-target="reports-content">Bootstrap</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" data-target="settings-content">Plugins</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" data-target="reports-content">Widget</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" data-target="settings-content">Forms</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" data-target="reports-content">Table</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" data-target="settings-content">Pages</a>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="col-md-8 main-content">
+        <div class="col-md-10 main-content">
           <div id="dashboard-content" class="content-section active">
             <!-- Dashboard content here -->
             <div class="container">
@@ -98,6 +133,29 @@
                   </div>
                 </div>
               </div>
+              <!---->
+              <div class="row second-row">
+                <div class="col-md-8">
+                  <div class="card fitness-chart">
+                    <img src="../IMG/fitnessChart.png" alt="FitnessChart" />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img
+                      src="../IMG/progressDisplayingCircle.png"
+                      alt="ProgressDisplayingImage"
+                    />
+                    <div class="card-body">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                      <button class="set-target">Set Target</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!---->
             </div>
           </div>
           <div id="reports-content" class="content-section">
