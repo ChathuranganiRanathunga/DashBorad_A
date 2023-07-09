@@ -12,7 +12,8 @@ body {
 }
 
 .logo img {
-    width: 120px;
+    width: 100px;
+    padding-bottom: 30px;
 }
 
 .profile-image {
@@ -226,6 +227,9 @@ body {
 /*Mobile View*/
 
 @media (max-width: 767px) {
+    .sidebar {
+        text-align: center;
+    }
     .first-row {
         margin: 20px;
     }
