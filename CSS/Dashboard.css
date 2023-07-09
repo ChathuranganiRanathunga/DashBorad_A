@@ -1,3 +1,7 @@
+body {
+    font-family: 'monospace', roboto;
+}
+
 .sidebar {
     background-color: white;
     padding: 20px;
