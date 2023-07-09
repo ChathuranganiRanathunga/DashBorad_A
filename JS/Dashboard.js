@@ -27,3 +27,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+//Button Changed option weekly,daily, yearly
+function toggleDropdown() {
+  var dropdownCard = document.getElementById("dropdown-card");
+  dropdownCard.style.display =
+    dropdownCard.style.display === "none" ? "block" : "none";
+}
+
+function selectOption(option) {
+  var timingText = document.getElementById("timing-text");
+  timingText.textContent = option;
+  var dropdownCard = document.getElementById("dropdown-card");
+  dropdownCard.style.display = "none";
+}

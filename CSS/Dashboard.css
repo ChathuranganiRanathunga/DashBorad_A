@@ -85,6 +85,106 @@
 .second-row .progress-display-img {
     align-items: center;
     text-align: center;
+    padding: 60px 20px 60px 20px;
+}
+
+.second-row .progress-display-img .set-target {
+    width: 120px;
+    padding: 8px 20px 8px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #6CC51D;
+}
+
+.second-row .progress-display-img .set-target:hover {
+    background-color: #6CC51D;
+    color: white;
+}
+
+.second-row .fa-running {
+    color: #FF9432;
+}
+
+.second-row .fa-bicycle {
+    color: #1EA7C5;
+}
+
+.second-row .fa-spa {
+    color: rgb(247, 154, 247);
+}
+
+.second-row .button-timing .drop-down-timing {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #6CC51D;
+    background-color: transparent;
+}
+
+.button-timing .drop-down-timing {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #6CC51D;
+    background-color: transparent;
+}
+
+.second-row .button-timing .drop-down-timing {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #6CC51D;
+    background-color: transparent;
+}
+
+.second-row .button-timing .dropdown-card {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.second-row .button-timing .drop-down-timing {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #6CC51D;
+    background-color: transparent;
+}
+
+.dropdown-card {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dropdown-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-card ul li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.dropdown-card ul li:hover {
+    background-color: #e5e5e5;
+}
+
+.second-row .card .img-statistical-display {
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -128,5 +228,13 @@
     .first-row .card {
         width: 205px;
         margin-bottom: 20px;
+    }
+    .second-row .progress-display-img img {
+        width: 100px;
+        height: 100px;
+    }
+    .second-row .second-card {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }

@@ -226,15 +226,29 @@
                             </div>
                           </div>
                         </div>
+                        <!---->
                         <div class="col-md-2 button-timing">
-                          <button class="drop-down-timing">
+                          <button
+                            class="drop-down-timing"
+                            onclick="toggleDropdown()"
+                          >
                             <div class="row">
                               <div class="col text">
-                                Week<i class="fas fa-arrow-down"></i>
+                                <span id="timing-text">Weekly</span>
+                                <i class="fas fa-arrow-down"></i>
                               </div>
                             </div>
                           </button>
+                          <div class="dropdown-card" id="dropdown-card">
+                            <ul>
+                              <li onclick="selectOption('Weekly')">Weekly</li>
+                              <li onclick="selectOption('Daily')">Daily</li>
+                              <li onclick="selectOption('Monthly')">Monthly</li>
+                              <li onclick="selectOption('Yearly')">Yearly</li>
+                            </ul>
+                          </div>
                         </div>
+
                         <div class="row img-statistical-display">
                           <img
                             src="../IMG/fitnessChart.png"
@@ -246,16 +260,20 @@
                   </div>
                 </div>
                 <div class="col-md-4 second-card">
-                  <div class="card progress-display-img">
-                    <img
-                      src="../IMG/progressDisplayingCircle.png"
-                      alt="ProgressDisplayingImage"
-                    />
-                    <div class="card-body">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                      <button class="set-target">Set Target</button>
+                  <div class="card">
+                    <h4>Workout Progress</h4>
+                    <div class="progress-display-img">
+                      <img
+                        src="../IMG/progressDisplayingCircle.png"
+                        alt="ProgressDisplayingImage"
+                      />
+                      <div class="card-body">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit.
+                        </p>
+                        <button class="set-target">Set Target</button>
+                      </div>
                     </div>
                   </div>
                 </div>
